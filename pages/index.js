@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Button from "../components/Button/Button";
 
 export default function Home() {
   return (
@@ -50,6 +51,7 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <Button>Submit</Button>
       </main>
 
       <footer className={styles.footer}>
